@@ -157,7 +157,7 @@ span {
     background-image: url("./banner.jpg");
     background-size: cover;
     height: 350px;
-    width: 1500px;
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -322,4 +322,12 @@ ul a {
 
 .copy {
     padding-top: 10px;
+}
+
+@media screen and (max-width : 600px) {
+    body {
+        width: 1250px;
+        height: 100vh;
+        
+    }
 }
